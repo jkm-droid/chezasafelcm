@@ -4,7 +4,7 @@
 
 {% block content %}
 
-    <div class="col-md-3 offset-md-5">
+    <div class="col-md-4 offset-md-4">
 
         <h4 class="text-center">Register with ChezaSafeLCM</h4>
         <form action="" method="POST">
@@ -15,7 +15,9 @@
 
             <input class="btn btn-primary  offset-md-5" type="submit" value="Register"><br>
 
-            <a style="text-decoration: none;" href="{% url 'login' %}">Already have an account? Login</a>
+            <div class="text-center">
+                <a  style="text-decoration: none;" href="{% url 'login' %}">Already have an account? Login</a>
+            </div>
 
         </form>
 

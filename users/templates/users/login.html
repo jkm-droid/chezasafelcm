@@ -2,7 +2,7 @@
 
 {% block content %}
 
-    <div class="col-md-3 col-sm-6 offset-md-5">
+    <div class="col-md-4 col-sm-6 offset-md-4">
 
          <h4 class="text-center">Sign in to ChezaSafeLCM</h4>
 
@@ -20,8 +20,9 @@
             <label for="InputPassword">Password</label>
                 <input type="password" class="form-control" id="InputPassword" name="password" placeholder="Enter Password"><br>
                 <input type="submit" class="btn btn-success offset-md-5" name="" value="Login"><br>
-
-            <a style="text-decoration: none;" href="{% url 'register' %}">Don't have an account? Register</a>
+            <div class="text-center">
+                <a style="text-decoration: none;" href="{% url 'register' %}">Don't have an account? Register</a>
+            </div>
 
         </form>
     </div>

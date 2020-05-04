@@ -25,6 +25,9 @@ urlpatterns = [
 
     # urls for users
     path('users/', include('users.urls')),
+
+    # portal urls
+    path('portal/', include('portal.urls')),
 ]
 
 if settings.DEBUG:

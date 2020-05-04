@@ -2,13 +2,13 @@
 
 {% block content %}
 
-    <div class="col-md-3 offset-md-5">
+    <div class="col-md-3 col-sm-6 offset-md-5">
 
          <h4 class="text-center">Sign in to ChezaSafeLCM</h4>
 
          {% if messages %}
                  {% for msg in messages %}
-                     <p class="text-danger text-center">{{ msg }}</p>
+                     <p class="text-warning text-center">{{ msg }}</p>
                  {% endfor %}
          {% endif %}
 
